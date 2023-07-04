@@ -2,8 +2,8 @@
   "name": "demojultodo",
   "type": "package",
   "source": {
-    "https": null,
-    "ssh": null,
+    "https": "https://github.com/uttahb/demojultodo.git",
+    "ssh": "git@github.com:uttahb/demojultodo.git",
     "branch": "block_demojultodo"
   },
   "dependencies": {
