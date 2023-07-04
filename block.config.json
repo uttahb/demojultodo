@@ -1,0 +1,36 @@
+{
+  "name": "demojultodo",
+  "type": "package",
+  "source": {
+    "https": "https://github.com/uttahb/demojultodo.git",
+    "ssh": "git@github.com:uttahb/demojultodo.git",
+    "branch": "block_demojultodo"
+  },
+  "dependencies": {
+    "addTodo": {
+      "directory": "addTodo"
+    },
+    "listTodos": {
+      "directory": "listTodos"
+    },
+    "removeTodo": {
+      "directory": "removeTodo"
+    },
+    "todoInput": {
+      "directory": "todoInput"
+    },
+    "todoItem": {
+      "directory": "todoItem"
+    },
+    "todoContainer": {
+      "directory": "todoContainer"
+    }
+  },
+  "blockId": "YCLLEOVKBUe4q9zGqv-kW",
+  "parentBlockIDs": [],
+  "isPublic": false,
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "repoType": "mono"
+}
