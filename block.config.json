@@ -1,0 +1,22 @@
+{
+  "name": "todoContainer",
+  "type": "ui-container",
+  "source": {
+    "https": "https://github.com/uttahb/demojultodo.git",
+    "ssh": "git@github.com:uttahb/demojultodo.git",
+    "branch": "block_todoContainer"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "yFHfumbL0fyqIQ8UtAkSg",
+  "isPublic": false,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "YCLLEOVKBUe4q9zGqv-kW"
+  ]
+}
