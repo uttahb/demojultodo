@@ -1,0 +1,22 @@
+{
+  "type": "function",
+  "source": {
+    "https": "https://github.com/uttahb/demojultodo.git",
+    "ssh": "git@github.com:uttahb/demojultodo.git",
+    "branch": "block_listTodos"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "npm run build",
+  "postPull": "npm i",
+  "name": "listTodos",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "bWz2w31WFcOUz_Y4N221a",
+  "isPublic": false,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "YCLLEOVKBUe4q9zGqv-kW"
+  ]
+}
